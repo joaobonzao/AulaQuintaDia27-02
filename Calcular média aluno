@@ -1,0 +1,32 @@
+package desafio2exer0;
+/* 
+  Autor: 
+   João Pedro C. Reichert
+  Data: 
+   27/02/2025
+  Projeto: 
+    Crie um algoritimo que leia onde o professor entra com o nome do aluno,
+  seu numero de matricula e suas 3 notas, o programa devera calcular a sua média aritmética.
+  Ao término devera mostrar os dado do aluno e a média final
+*/
+public class Desafio2Exer0 {
+    public static void main(String[] args) {
+       // Declarar váriaveis
+          String nome;
+          int numeroMatricula;
+          double nota1, nota2, nota3, media;
+       // Entrada de dados
+          nome = "Robertão Azevedo";
+          numeroMatricula = 186;
+          nota1 = 6;
+          nota2 = 9;
+          nota3 = 3;
+       // Processamento
+          media = (nota1 + nota2 + nota3)/3;
+       // Saida de dados
+          System.out.println("Aluno: " + nome);
+          System.out.println("Matricula: " + numeroMatricula);
+          System.out.println("Média: " + media);
+    }
+    
+}
